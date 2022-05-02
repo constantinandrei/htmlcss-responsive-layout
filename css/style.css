@@ -213,6 +213,38 @@ nav {
     text-align: left;
 }
 
+.testimonial .card {
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial .card p {
+    color: white;
+    line-height: 2rem;
+}
+
+.testimonial h6 {
+    color: #5f6e7b;
+    font-size: 1rem;
+    margin: 1rem auto;
+    font-weight: normal;
+}
+
+.testimonial h2 {
+    color: var(--color-primary);
+    padding: 1.5rem 0;
+    font-size: 2.5rem;
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.quotes-icon {
+    width: 1.5rem;
+}
+
 /* Flex Classes
         .col classes names are expressed in fraction of the total father width.
         example: .col-2-3 have flex-basis: 66.(6)%
@@ -338,5 +370,9 @@ nav {
 
     .justify-center-sm {
         justify-content: center;
+    }
+
+    .center-text-sm {
+        text-align: center;
     }
 }
