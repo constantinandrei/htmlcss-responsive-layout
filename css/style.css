@@ -393,10 +393,81 @@ nav {
     flex-basis: calc(75% - var(--large-gap));
 }
 
+.container-width500 {
+    max-width: 500px;
+    margin: auto;
+}
+
+.get-started h6 {
+    color: #5f6e7b;
+    font-size: 1rem;
+    margin: 1rem auto;
+    font-weight: normal;
+}
+
+.get-started p {
+    color: rgb(229, 223, 238);
+    line-height: 2rem;
+    padding: 2rem 0;
+}
+
+.get-started h2 {
+    color: white;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.get-started h1 {
+    font-size: 5rem;
+    color: #FDC15F;
+}
+
+.get-started .copyright a {
+    padding: 0;
+    text-decoration: underline;
+}
+
+.get-started p.copyright {
+    font-size: 0.9rem;
+}
+
+.get-started .btn {
+    padding: 1.5rem 3rem;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    color: var(--color-primary);
+}
+
+.get-started .btn:hover {
+    color: white;
+    background-color: #584ee3;
+}
+
+footer {
+    background-color: #333333;
+}
+
+footer .container-width500 p:first-child {
+    margin-bottom: 4rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: rgb(229, 223, 238);
+}
+
+footer a {
+    padding: 0;
+    text-decoration: underline;
+    color: var(--color-primary);
+}
+
 /* Paddings */
 
 .padding-normal {
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
 }
 
 .padding-small {
@@ -458,8 +529,8 @@ nav {
     }
 
     .container {
-        padding-right: 2rem;
-        padding-left: 2rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
     }
 }
 
