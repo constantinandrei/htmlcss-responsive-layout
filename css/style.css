@@ -230,6 +230,10 @@ nav {
     font-weight: normal;
 }
 
+.testimonial .card h5 {
+    font-size: 1.5rem;
+}
+
 .testimonial h2 {
     color: var(--color-primary);
     padding: 1.5rem 0;
