@@ -74,6 +74,9 @@ nav {
 
 .btn.btn-secondary {
     background-color: var(--color-secondary);
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 2.5rem;
 }
 
 .btn:hover {
@@ -130,6 +133,14 @@ nav {
 
 .card-icon {
     height: 70px
+}
+
+.apple-container {
+    display: inline-block;
+}
+
+.apple-logo {
+    height: 1rem;
 }
 
 .border-radius-normal {
@@ -190,6 +201,18 @@ nav {
     margin-top: 1rem;
 }
 
+.testimonial-image {
+    width: 100%;
+    max-width: 250px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.left-text {
+    text-align: left;
+}
+
 /* Flex Classes
         .col classes names are expressed in fraction of the total father width.
         example: .col-2-3 have flex-basis: 66.(6)%
@@ -241,6 +264,14 @@ nav {
     flex-basis: calc(50% - var(--large-gap));
 }
 
+.col-1-4 {
+    flex-basis: calc(25% - var(--large-gap));
+}
+
+.col-3-4 {
+    flex-basis: calc(75% - var(--large-gap));
+}
+
 /* Paddings */
 
 .padding-normal {
@@ -278,16 +309,11 @@ nav {
     .col-1-1-md {
         flex-basis: 100%;
     }
-
-    h3.large-text-md {
-        font-size: 4rem;
-    }
-
 }
 
 @media screen and (max-width: 768px) {
     .container {
-        width: 450px;
+        width: 100%;
     }
 
     .justify-right-md {
@@ -298,13 +324,19 @@ nav {
         font-size: 2rem;
     }
 
+    h3.large-text-md {
+        font-size: 4rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 576px) {
     .col-1-1-sm {
         flex-basis: 100%;
     }
-}
 
-@media screen and (max-width: 470px) {
-    .container {
-        width: 100%;
+    .justify-center-sm {
+        justify-content: center;
     }
 }
