@@ -278,6 +278,7 @@ nav {
 
 .relative-img-container {
     position: relative;
+    display: inline-block;
 }
 
 .quotes.absolute-quotes {
