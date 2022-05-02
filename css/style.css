@@ -279,6 +279,10 @@ nav {
         flex-basis: 100%;
     }
 
+    h3.large-text-md {
+        font-size: 4rem;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -288,6 +292,14 @@ nav {
 
     .justify-right-md {
         justify-content: right;
+    }
+
+    h3.large-text-md {
+        font-size: 2rem;
+    }
+
+    .col-1-1-sm {
+        flex-basis: 100%;
     }
 }
 
