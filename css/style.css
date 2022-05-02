@@ -109,7 +109,7 @@ nav {
 
 .card h3 {
     color: var(--color-secondary);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .card p {
@@ -549,5 +549,29 @@ footer a {
 
     h1.large-text-sm {
         font-size: 3rem;
+    }
+
+    .jumbo .card h3 {
+        font-size: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1.8rem;
+    }
+
+    .jumbo .card p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .jumbo .card {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .card-icon {
+        height: 120px;
+    }
+
+    .jumbo h4 {
+        font-size: 2rem;
     }
 }
